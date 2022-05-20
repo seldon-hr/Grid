@@ -1,0 +1,40 @@
+.container {
+    background-color: #FFF1FF;
+    border: 5px solid #E1BEE7;
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 20px;
+    grid-auto-flow: column;
+    /*
+    grid-template-rows: 100px 200px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+
+
+
+    grid-template-columns: 100px; Indica el grosor de la columna o columnas.
+    grid-template-rows: 150px 250px; Inicamos el grosor de cada fila, si no lo inccamos y poseemos más, no se 
+    les asgina on tamaño
+    grid-auto-rows: 150px; Largo que se le dará a toodas las rows, auto igual para columns.
+    
+    grid-auto-flow: column; Determina como se va a llenar nuestra grid, defalut esta en row, por eso crea más
+    filas, si definimos un número de estas, 
+    */
+
+
+    /*
+    grid-template-rows: 100px 200px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 40px;
+    
+    
+    
+    */
+}
+
+.item {
+    border: 5px solid #00BCD4;
+    font-size: 4rem;
+}
