@@ -6,36 +6,76 @@ body {
     border: 5px solid #e1bee7 ;
     background-color: white;
     display: grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 75px 75px 75px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
     grid-template-areas: 
-     'header header header'
-     'side main main'
-     'side main main';
+     'nav header header'
+     'side side addSide'
+     'footRight footCenter footLeft';
     place-content: center;
 }
 
 .item {
     font-size: 4rem;
+    border: 5px solid #302e2e;
 }
 
 .item-1 {
-    border: 5px solid #f8bbd0;
-    background-color: #ffeeff;
-    grid-area: header
+    grid-area: nav;
+    background-image: url('https://w.wallhaven.cc/full/5w/wallhaven-5wmyp3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .item-2 {
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
-    grid-area: side;
+    background-image: url('https://w.wallhaven.cc/full/pk/wallhaven-pkgkkp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: header;
 }
 
 .item-3 {
-    border: 5px solid #b2ebf2;
-    background-color: #e5ffff;
-    grid-area: main;
+    background-image: url('https://w.wallhaven.cc/full/49/wallhaven-49l31d.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: side;
 }
+
+.item-4 {
+    background-image: url('https://w.wallhaven.cc/full/4x/wallhaven-4xmlpd.jpg');
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: cover;
+    grid-area: addSide;
+}
+.item-5{
+    background-image: url('https://w.wallhaven.cc/full/4x/wallhaven-4xxwjl.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    grid-area: footRight;
+}
+
+.item-6 {
+    background-image: url('https://w.wallhaven.cc/full/73/wallhaven-73j8ly.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    grid-area: footCenter;
+}
+
+.item-7 {
+    background-image: url('https://w.wallhaven.cc/full/w8/wallhaven-w8l536.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    grid-area: footLeft;
+}
+
+
 
 /*
 Ubicado con definición de rows & columns
