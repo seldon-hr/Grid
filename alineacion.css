@@ -1,13 +1,17 @@
+main{
+    height: 600px;
+    width: 600px;
+    background-color: #3b630c;
+    display: grid;
+    place-content: center;
+}
+
 .container {
-    background-color: #add8005b;
-    border: 5px solid #E1BEE7;
     display: grid;
     grid-template-columns: 150px 150px;
     grid-auto-rows: 150px;
-    gap: 15px;
-    height: 600px;
-    place-content: center;
-    place-items: end;
+    gap: 25px;
+    
 
     /*
     grid-template-rows: 100px 200px;
@@ -38,7 +42,14 @@
 }
 
 .item {
-    border: 5px solid #00BCD4;
     font-size: 4rem;
+    font-weight: bolder;
+    color: #61a91f;
+    background-color: #add800;
+    place-items: end;
+    display: grid;
+}
+
+.item .subItem {
     background-color: #61a91f;
 }
