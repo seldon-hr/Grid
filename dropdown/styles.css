@@ -1,0 +1,78 @@
+
+
+.hamburger {
+     cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #414141;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:focus {
+    animation: banner;
+}
+
+
+.hamburger:focus + label > .hamburger1 > .bar1{
+    transform: rotate(45deg);
+    transform-origin: 5%;
+    width: 41px
+}
+
+.hamburger:focus + label > .hamburger1 > .bar2 {
+    transform: translateX(-40px);
+    background-color: transparent;
+}
+
+.checkbox1:focus + label > .hamburger1 > .bar3 {
+    transform: translateX(40px);
+    background-color: transparent;
+}
+
+.hamburger:focus + label > .hamburger1 > .bar4 {
+    transform-origin: 5%;
+    transform: rotate(-45deg);
+    width: 41px;
+}
+
+
+
+@keyframes banner {
+    0% {
+        transform: rotate(45deg);
+        transform-origin: 5%;
+        width: 41px
+    }
+    25% {
+        transform: translateX(-40px);
+        background-color: transparent;
+    }
+    26% {
+        transform: translateX(40px);
+        background-color: transparent;
+    }
+    50% {
+        transform-origin: 5%;
+        transform: rotate(-45deg);
+        width: 41px;
+    }
+    51% {
+        background-image: url(../assets/images/photoBanner3.jpg);
+    }
+    75% {
+        background-image: url(../assets/images/photoBanner3.jpg);
+    }
+    76% {
+        background-image: url(../assets/images/photoBanner4.jpg);
+    }
+    100% {
+        background-image: url(../assets/images/photoBanner4.jpg);
+    }
+}
