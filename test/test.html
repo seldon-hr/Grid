@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}    
+
+main {
+    width: 90%;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    gap: 20px;
+    height: 30vh;
+    overflow-y: hidden;
+}
+
+.box {
+    height: 80px;
+}
+
+.box:nth-child(1) {
+    background-color:aqua;
+}
+
+.box:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.box:nth-child(3) {
+    background-color:azure;
+}
+
+.box:nth-child(4) {
+    background-color:beige;
+}
+
+.box:nth-child(5) {
+    background-color: antiquewhite;
+}
+
+.box:nth-child(6) {
+    background-color:bisque;
+}
+
+.box:nth-child(7) {
+    background-color: antiquewhite;
+}
+
+.box:nth-child(8) {
+    background-color:brown;
+}
+
+.box:nth-child(9) {
+    background-color: burlywood;
+}
+
+.box:nth-child(10) {
+    background-color: cornsilk;
+}
+
+.box:nth-child(11) {
+    background-color: cyan;
+}
+
+.box:nth-child(12) {
+    background-color:blueviolet;
+}
+
+
+</style>
+<body>
+    <main>
+        <article class="article">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+        </article>
+    </main>
+</body>
+</html>
