@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    border: 5px solid #efefef;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 200px 300px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    /* grid-template:  150px 250px / 100px 200px 300px  ; */
+    /* 
+    *Grid-template
+        Define the explicit rows or columns.
+    *Grid-auto
+        Defien the implicit rows or columns, when you only define certain rows or
+        columns, with grid-auto you define the auto-size for the rest of the
+        items.
+    */
+}
+
+.container-2 {
+    border: 5px solid #efefef;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 200px 300px;
+    grid-auto-columns: auto;
+    grid-auto-flow: column;
+}
+
+.box {
+    border: 5px solid #00bcd4;
+    font-size: 3rem;
+}
