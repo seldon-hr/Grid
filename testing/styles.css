@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    display: grid;
+    width: 90%;
+    height: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+
+    grid-template: 1fr  / 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box1 {
+    background-color: antiquewhite;
+}
+
+.box1 {
+    background-color: antiquewhite;
+}
+
+.box1 {
+    background-color: antiquewhite;
+}
+
+.box1 {
+    background-color: antiquewhite;
+}
+
+.box1 {
+    background-color: antiquewhite;
+}
+.box1 {
+    background-color: antiquewhite;
+}
+.box1 {
+    background-color: antiquewhite;
+}
+
