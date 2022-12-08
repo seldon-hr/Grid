@@ -35,3 +35,12 @@ nav {
   nav ul li:hover ul {
     display: block;
   }
+
+
+  /* 
+    Este código crea un menú con cuatro opciones: "Inicio", "Nosotros", "Servicios" y "Contacto". La opción "Servicios" tiene un submenú con tres opciones: "Diseño web", "Desarrollo de aplicaciones" y "Marketing digital". Cuando el usuario pasa el ratón sobre la opción "Servicios", se despliega el submenú con sus opciones.
+
+En el código HTML, se utiliza una lista desordenada <ul> para representar el menú, y se anidan dos listas más para representar el submenú de "Servicios". En el código CSS, se utilizan reglas de estilo para darle formato al menú y al submenú, y se utiliza la propiedad :hover para mostrar el submenú cuando el usuario pasa el ratón sobre "Servicios".
+
+Este es un ejemplo básico de cómo crear un menú dropdown en HTML y CSS. Puede modificar y personalizar el código según sus necesidades y preferencias. Por ejemplo, puede cambiar los colores, el diseño y la disposición del menú y del submenú, agregar más opciones, etc.
+  */
